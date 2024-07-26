@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Copy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #202124;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .google-logo img {
+            width: 272px;
+        }
+
+        .search-form {
+            margin-top: 20px;
+        }
+
+        .search-input {
+            width: 500px;
+            padding: 10px;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            font-size: 16px;
+            outline: none;
+            transition: box-shadow 0.2s;
+        }
+
+        .search-input:focus {
+            box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+            border-color: #dfe1e5;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .search-button, .lucky-button {
+            background-color: #f8f9fa;
+            border: 1px solid #f8f9fa;
+            color: #5f6368;
+            font-size: 14px;
+            margin: 5px;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .search-button:hover, .lucky-button:hover {
+            border: 1px solid #dadce0;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="google-logo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_92x30dp.png" alt="Google Logo">
+        </div>
+        <form class="search-form">
+            <input type="text" class="search-input" placeholder="Search Google or type a URL">
+            <div class="buttons">
+                <button type="submit" class="search-button">Google Search</button>
+                <button type="button" class="lucky-button">I'm Feeling Lucky</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
